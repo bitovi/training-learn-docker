@@ -1,4 +1,12 @@
-# Notes on the training doc
+<!-- markdownlint-disable MD041 -->
+
+# Notes on the docker training doc
+
+<https://www.bitovi.com/academy/learn-docker.html>
+
+## Build Node App
+
+1. Should add a step to add `node_modules` to `.gitignore`.
 
 ## Build and Run An Image
 
@@ -16,3 +24,22 @@
 
 ## Docker Compose
 
+1. Just a quick note that the services will be named `<directory_name>_<service_name>_<index>`. This is a common source of confusion.
+
+# New Sections
+
+## Next Steps and Orchestration
+
+1. Kubernetes
+1. Docker Swarm _mostly deprecated in favor of k8s_
+1. Docker Compose _not really orchestration, but a good next step_
+
+## Alternatives to Docker
+
+There are a lot of alternatives to Docker. I think it's worth mentioning them, but not going into detail. I think it's also worth mentioning that Docker is the most popular, and that it's the best place to start. When you're ready to grow your skillset, or encounter a scenario that could benefit/requires an alternative, you can look at the alternatives.
+
+1. [Podman](https://podman.io/)
+1. [Containerd](https://containerd.io/)
+1. [colima](https://github.com/abiosoft/colima)
+1. [Buildah](https://buildah.io/)
+1. ...and many more...
