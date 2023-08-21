@@ -1,4 +1,4 @@
-FROM node:15
+FROM node:15-alpine
 
 ARG PORT=8000
 ENV PORT=$PORT
