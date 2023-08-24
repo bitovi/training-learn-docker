@@ -1,13 +1,14 @@
 <!-- markdownlint-disable MD041 -->
 ## Next Steps and Orchestration
 
-1. [Kubernetes](kubernetes.io)
-1. Docker Swarm _mostly deprecated in favor of k8s_
-1. Docker Compose _not really orchestration, but a good next step_
+1. [Docker Compose](https://docs.docker.com/compose/) _not really orchestration, but a good next step_
+1. [Kubernetes (k8s)](https://kubernetes.io) _we recommend [MiniKube](https://minikube.sigs.k8s.io/docs/) for local k8s experimentation_
+   1. We recommend [K9s](https://k9scli.io/) and [OpenLens](https://github.com/MuhammedKalkan/OpenLens/blob/main/README.md) as K8s UIs.
+1. [Docker Swarm](https://circleci.com/blog/docker-swarm-vs-kubernetes/) _mostly deprecated in favor of k8s, although it still has its place_
 
 ## Alternatives to Docker
 
-There are a lot of alternatives to Docker. I think it's worth mentioning them, but not going into detail. I think it's also worth mentioning that Docker is the most popular, and that it's the best place to start. When you're ready to grow your skillset, or encounter a scenario that could benefit/requires an alternative, you can look at the alternatives.
+There are a lot of alternatives to Docker. I think it's worth mentioning them, but not going into detail. Docker is the most widely adopted, and it's the best place to start. When you're ready to grow your skillset, or encounter a scenario that could benefit from or requires an alternative, you can expand your scope of knowledge.
 
 1. [Podman](https://podman.io/)
 1. [Containerd](https://containerd.io/)
